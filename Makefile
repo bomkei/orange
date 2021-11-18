@@ -1,9 +1,10 @@
 TARGET		= orange
 
+BUILD			= build
 INCLUDES	= include
 SOURCES		= src
-SUBDIRS		=
-BUILD			= build
+SUBDIRS		= \
+	orange_driver
 
 COMMON		= -O2
 CFLAGS		= $(COMMON) $(INCLUDE) -Wno-switch
