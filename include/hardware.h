@@ -1,6 +1,6 @@
 #pragma once
 
-class Hardware;
+class Hardware {
   /*
     // variables
     CPU
@@ -12,4 +12,13 @@ class Hardware;
 
 
   */
+ 
+public:
+  Hardware();
+  ~Hardware();
+
+  int boot(); // returning success or failure ?
+
+
+};
 
