@@ -36,7 +36,3 @@ MEM2: <br>
   - 25 GB/層 → Wii U
   - 基本的にこれだけで良いと思う
 
-# IOSU
-- おそらく BIOS をより近代化したようなもの
-- と思ったら OS だった CafeOSがこれなのか IOSUの上でCafeOSが動いてるのか 確認が必要かもしれない
-- 詳しい情報は [https://wiiubrew.org/wiki/IOSU](IOSU) にある
