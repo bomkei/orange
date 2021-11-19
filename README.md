@@ -1,2 +1,2 @@
 # Orange: Fast WiiU Emulater
-Evolution.
+Revolution of emulator.
