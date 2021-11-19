@@ -10,14 +10,33 @@ AMD Radeon で、コードネームは Latte 。<br>
 
 SoC: Starbuck Iteration of Wiis Starlet
 
+## セキュリティープロセッサー
+- 名前は Starbuck
+- `IOSU` と `boot0` と `boot1` が動く
+- `Input/Output Processor` 略して `IOP` とも呼ばれる
+
 ## メモリ
 MEM1: <br>
 32MB
 
 MEM2: <br>
 2GB <br>
-このうち 1GB は OS と unavailable to games のために予約されている。<br>
-4 つの 4Gbit(512MiB) DDR3-1600 メモリモジュールで構成され、each 3.2GB/s bandwidth for a total of 12.8GB/s
+このうち 1GB は OS が予約しているため ゲームでは使えない。<br>
+4つの 4Gbit(512MiB) DDR3-1600 メモリモジュールで構成され、each 3.2GB/s bandwidth for a total of 12.8GB/s
 
 ## ストレージ
+- 8GB か 32GB の eMMC NAND
+- 2つの 512MB NAND (=TSOP48) bankがある
+  - よくわかってないけどおそらくバッファリング用途？
+    - 要チェックかも
+  - 一つは vWii モード用
+  - もう一つは Wii U用
+- ディスク
+  - 4.7 GB/層 → Wii
+  - 25 GB/層 → Wii U
+  - 基本的にこれだけで良いと思う
 
+# IOSU
+- おそらく BIOS をより近代化したようなもの
+- と思ったら OS だった CafeOSがこれなのか IOSUの上でCafeOSが動いてるのか 確認が必要かもしれない
+- 詳しい情報は [https://wiiubrew.org/wiki/IOSU](IOSU) にある
