@@ -16,7 +16,7 @@ SoC: Starbuck Iteration of Wiis Starlet
 - `Input/Output Processor` 略して `IOP` とも呼ばれる
 
 ## メモリ
-MEM1: 32MB
+MEM1: 32MB  
 MEM2: 2GB
 - 1GB は OS が予約
   - = その分はゲームでは使えない
