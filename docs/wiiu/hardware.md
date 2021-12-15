@@ -1,11 +1,11 @@
 # ハードウェア
 ## プロセッサ
-CPU: <br>
-IBM PowerPC をベースにしたプロセッサ "Espresso" で、周波数は 1243.125 MHz (1.24GHz) 。<br>
-消費電力低減と処理速度向上のために、単一チップ上に 3 つのコアを持つ PowerPC アーキテクチャのマイクロプロセッサであることが、IBM と 任天堂から明らかにされている。チップには、CPU キャッシュ用として製造時に eDRAM が埋め込まれている。
+CPU: Espresso (PowerPC ベース) @1243.125 Mhz (=1.24Ghz)
+- 単一チップ状に 3 つのコアを持つ PowerPC アーキテクチャのマイクロプロセッサ
+  - IBM と任天堂より
+- チップに CPU キャッシュ用として製造時に eDRAM が埋め込まれている。
 
-GPU: <br>
-AMD Radeon で、コードネームは Latte 。<br>
+GPU: AMD Radeon で、コードネームは Latte 。<br>
 周波数は 549.999 MHz (0.549 GHz) 。
 
 SoC: Starbuck Iteration of Wiis Starlet
@@ -16,13 +16,13 @@ SoC: Starbuck Iteration of Wiis Starlet
 - `Input/Output Processor` 略して `IOP` とも呼ばれる
 
 ## メモリ
-MEM1: <br>
-32MB
-
-MEM2: <br>
-2GB <br>
-このうち 1GB は OS が予約しているため ゲームでは使えない。<br>
-4つの 4Gbit(512MiB) DDR3-1600 メモリモジュールで構成され、each 3.2GB/s bandwidth for a total of 12.8GB/s
+MEM1: 32MB
+MEM2: 2GB
+- 1GB は OS が予約
+  - = その分はゲームでは使えない
+- 4つの 4Gbit (=512Mib) DDR3-1600 メモリモジュールで構成されている
+- それぞれ 3.2GB/s
+  - = 合計 12.8GB/s
 
 ## ストレージ
 - 8GB か 32GB の eMMC NAND
